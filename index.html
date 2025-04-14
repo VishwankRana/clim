@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clim</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <h1>clim</h1>
+
+    <div class="descriptionContainerParent">
+        <div class="aboutContainer">
+            <p>Stay updated with real-time weather conditions from anywhere in the world. This lightweight web app delivers accurate temperature, humidity, and wind data using the OpenWeather API — all in a clean, distraction-free interface. Built with HTML, CSS, and JavaScript.</p>
+        </div>
+    </div>
+
+    <div class="dateTimeCityInputContainerParent">
+        <div class="dateTime">
+            <h2 class="timeContainer"></h2>
+            <p class="dateContainer"></p>
+        </div>
+        <div class="cityInputContainer">
+            <input type="text" class="cityInput" placeholder="Enter city name">
+            <div class="searchButtonContainer">
+                <button class="searchButton">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="weatherDataContainer">
+        <div class="temperature">Temperature</div>
+        <div class="pressure">Pressure</div>
+        <div class="humidity">Humidity</div>
+        <div class="wind">Wind</div>
+    </div>  
+
+    <div class="weatherDataContainer2">
+        <div class="description">Description</div>
+        <div class="airPollution">Air Pollution</div>
+        <div class="visibility">Visibility</div>
+        <div class="sunrise">Sunrise</div>
+    </div>
+    
+    <script src="scripts/datetime.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

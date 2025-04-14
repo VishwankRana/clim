@@ -1,0 +1,121 @@
+body{
+    /* background-color: #060118; */
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{ 
+    display: flex;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* color: white; */
+    justify-content: center;
+    align-items: center;
+}
+
+.descriptionContainerParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutContainer{
+    width: 50em;
+    font-size: 20px;
+}
+
+.dateTimeCityInputContainerParent{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    position: relative;
+}
+
+.dateTime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 30px;
+    font-size: 30px;
+    line-height: 0px;
+}
+
+.dateTime h2 {
+    margin: 40px; 
+    padding: 0; 
+}
+
+.dateTime p {
+    margin: 0px; 
+    padding: 0px; 
+}
+
+.cityInputContainer{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    margin: 0;
+}
+
+.cityInput{
+    width:300px;
+    height: 40px;
+    font-size: 30px;
+}
+
+.searchButton {
+    position: absolute; 
+    top: 50%; 
+    left: 115%; 
+    transform: translate(-50%, -50%); 
+    margin: 0;
+    height: 40px; 
+    font-size: 16px;
+    padding: 0 10px; 
+    cursor: pointer;
+}
+
+.weatherDataContainer{
+    display: flex;
+    margin: 80px 0px 0px 0px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.weatherDataContainer2{
+    display: flex;
+    margin: 80px 0px 0px 0px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.temperature, .pressure, .humidity, .wind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 250px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.description,.airPollution,.visibility,.sunrise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 250px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.windContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
